@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+.addBtn {
+  background-color: green;
+}
+.addBtn:hover {
+  background-color: greenyellow;
+}
+.delBtn {
+  background-color: red;
+}
+.delBtn:hover {
+  background-color: rgb(170, 3, 3);
+}
+.moveBtn {
+  background-color: blue;
+}
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  color: black;
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 3px solid seashell;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.delBtn,
+.moveBtn {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
